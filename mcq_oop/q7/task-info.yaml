@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: They are all regular classes that don't extend each other.
+  is_correct: false
+- text: They are all regular classes. <code>PartTimeWorker</code>, <code>UndergradStudent</code>
+    and <code>GraduateStudent</code> all extend <code>Billable</code> directly.
+  is_correct: false
+- text: <code>Billable</code> is an interface. <code>PartTimeWorker</code> is a class
+    that implements <code>Billable</code>. <code>UndergradStudent</code> and <code>GraduateStudent</code>
+    extends <code>PartTimeWorker</code>.
+  is_correct: false
+- text: <code>Billable</code> is an interface. <code>PartTimeWorker</code> is an abstract
+    class that implements <code>Billable</code>, and leaves <code>getHourlyRate()</code>
+    abstract. <code>UndergradStudent</code> and <code>GraduateStudent</code> extends
+    <code>PartTimeWorker</code> and override <code>getHourlyRate()</code>.
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/readme.txt
+  visible: true

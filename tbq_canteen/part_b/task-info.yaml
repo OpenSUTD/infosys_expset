@@ -1,0 +1,69 @@
+type: edu
+files:
+- name: src/menu/MenuItem.java
+  visible: true
+- name: src/simulator/Ingredient.java
+  visible: true
+- name: src/simulator/Inventory.java
+  visible: true
+  placeholders:
+  - offset: 794
+    length: 52
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 1
+      is_visible: true
+  - offset: 1151
+    length: 244
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 2
+      is_visible: true
+  - offset: 1852
+    length: 347
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 3
+      is_visible: true
+- name: src/menu/chicken_rice/WantonNoodle.java
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 19
+    placeholder_text: /* TODO implement interface */
+  - offset: 214
+    length: 459
+    placeholder_text: /* TODO custom cooking behaviour for this menu item... */
+- name: src/menu/chicken_rice/SteamedChickenRice.java
+  visible: true
+  placeholders:
+  - offset: 140
+    length: 19
+    placeholder_text: /* TODO implement interface */
+  - offset: 228
+    length: 1040
+    placeholder_text: /* TODO cooking behaviour of this menu item... */
+- name: src/menu/mixed_rice/EconomicRice.java
+  visible: true
+  placeholders:
+  - offset: 158
+    length: 19
+    placeholder_text: /* TODO implement interface */
+  - offset: 246
+    length: 1020
+    placeholder_text: /* TODO customize cooking logic for this menu item... */
+- name: test/tests/menu/SteamedChickenRiceTest.java
+  visible: true
+- name: test/tests/menu/WantonNoodleTest.java
+  visible: true
+- name: test/tests/menu/EconomicRiceTest.java
+  visible: true

@@ -1,0 +1,84 @@
+type: edu
+files:
+- name: src/menu/MenuItem.java
+  visible: true
+- name: src/simulator/Ingredient.java
+  visible: true
+- name: src/simulator/Inventory.java
+  visible: true
+- name: src/menu/chicken_rice/WantonNoodle.java
+  visible: true
+- name: src/menu/chicken_rice/SteamedChickenRice.java
+  visible: true
+- name: src/menu/mixed_rice/EconomicRice.java
+  visible: true
+- name: src/simulator/EventBus.java
+  visible: true
+- name: src/events/IngredientUsedEvent.java
+  visible: true
+- name: src/events/ItemSaleEvent.java
+  visible: true
+- name: src/observers/Cashier.java
+  visible: true
+- name: src/observers/NEAWatchdog.java
+  visible: true
+- name: src/observers/MostUsedIngredientTracker.java
+  visible: true
+- name: src/menu/western/SetMeal.java
+  visible: true
+  placeholders:
+  - offset: 572
+    length: 72
+    placeholder_text: /* TODO */
+  - offset: 687
+    length: 99
+    placeholder_text: /* TODO */
+  - offset: 956
+    length: 60
+    placeholder_text: /* TODO */
+  - offset: 1190
+    length: 57
+    placeholder_text: /* TODO */
+  - offset: 1435
+    length: 64
+    placeholder_text: /* TODO */
+  - offset: 1790
+    length: 53
+    placeholder_text: /* TODO */
+  - offset: 2076
+    length: 305
+    placeholder_text: /* TODO */
+  - offset: 2616
+    length: 53
+    placeholder_text: /* TODO */
+  - offset: 2779
+    length: 389
+    placeholder_text: /* TODO */
+  - offset: 3200
+    length: 119
+    placeholder_text: /* TODO */
+  - offset: 3394
+    length: 78
+    placeholder_text: /* TODO */
+- name: src/menu/western/mains/AglioOlio.java
+  visible: true
+- name: src/menu/western/mains/ChickenCutlet.java
+  visible: true
+- name: src/menu/western/mains/Burger.java
+  visible: true
+- name: src/menu/western/sides/Rice.java
+  visible: true
+- name: src/menu/western/sides/MashedPotato.java
+  visible: true
+- name: src/menu/western/sides/Fries.java
+  visible: true
+- name: src/menu/western/sides/CheeseFries.java
+  visible: true
+- name: src/menu/western/sides/FriedEgg.java
+  visible: true
+- name: src/menu/western/sides/SideDish.java
+  visible: true
+- name: src/menu/western/mains/MainDish.java
+  visible: true
+- name: test/SetMealTest.java
+  visible: false

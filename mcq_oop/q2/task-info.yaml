@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>Object</code>
+  is_correct: false
+- text: <code>List&lt;String&gt;</code>
+  is_correct: false
+- text: <code>ArrayList&lt;String&gt;</code>
+  is_correct: false
+- text: <code>Iterable&lt;String&gt;</code>
+  is_correct: true
+- text: <code>Collection&lt;String&gt;</code>
+  is_correct: true
+- text: <code>String[]</code>
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/readme.txt
+  visible: true

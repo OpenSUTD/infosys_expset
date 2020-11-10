@@ -1,0 +1,1 @@
+Click on the "Task" icon on the right hand side (below "Gradle") to view this question.

@@ -1,0 +1,15 @@
+title: Infosys ExPSet
+language: English
+summary: |-
+  50.001 Introduction to Information Systems Programming
+  Extended Problem Set v1.0
+
+  For Internal SUTD use only.
+
+  - Chester, C2021
+programming_language: Java
+content:
+- mcq_fundamentals
+- mcq_oop
+# - tbq_safeentry
+- tbq_canteen

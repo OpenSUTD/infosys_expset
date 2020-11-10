@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "Yes"
+  is_correct: false
+- text: "No"
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: "Java files must first be compiled to Java bytecode in the form of <code>.class</code> files before they can be run by the Java runtime."
+files:
+- name: src/readme.txt
+  visible: true

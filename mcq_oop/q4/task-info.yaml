@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Overriding
+  is_correct: true
+- text: Overloading
+  is_correct: false
+- text: Inheritance
+  is_correct: false
+- text: Abstraction
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/readme.txt
+  visible: true

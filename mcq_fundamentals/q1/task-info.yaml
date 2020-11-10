@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Both are the same
+  is_correct: false
+- text: <code>.equals()</code> are for objects, <code>==</code> is for primitives
+  is_correct: true
+message_correct: Correct!
+message_incorrect: "false"
+files:
+- name: src/readme.txt
+  visible: true

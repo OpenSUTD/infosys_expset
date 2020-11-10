@@ -1,0 +1,117 @@
+type: edu
+files:
+- name: src/menu/MenuItem.java
+  visible: true
+- name: src/simulator/Ingredient.java
+  visible: true
+- name: src/simulator/Inventory.java
+  visible: true
+  placeholders:
+  - offset: 794
+    length: 52
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 1
+      is_visible: true
+  - offset: 1151
+    length: 244
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 2
+      is_visible: true
+  - offset: 1852
+    length: 347
+    placeholder_text: /* TODO Finish Part A and your answer appears here*/
+    dependency:
+      lesson: tbq_canteen
+      task: part_a
+      file: src/simulator/Inventory.java
+      placeholder: 3
+      is_visible: true
+- name: src/menu/chicken_rice/WantonNoodle.java
+  visible: true
+  placeholders:
+  - offset: 305
+    length: 739
+    placeholder_text: /* TODO Finish Part B and your answer appears here */
+    dependency:
+      lesson: tbq_canteen
+      task: part_b
+      file: src/menu/chicken_rice/WantonNoodle.java
+      placeholder: 2
+      is_visible: true
+- name: src/menu/chicken_rice/SteamedChickenRice.java
+  visible: true
+  placeholders:
+  - offset: 319
+    length: 1332
+    placeholder_text: /* TODO Finish Part B and your answer appears here */
+    dependency:
+      lesson: tbq_canteen
+      task: part_b
+      file: src/menu/chicken_rice/SteamedChickenRice.java
+      placeholder: 2
+      is_visible: true
+- name: src/menu/mixed_rice/EconomicRice.java
+  visible: true
+  placeholders:
+  - offset: 337
+    length: 1600
+    placeholder_text: /* TODO customize cooking logic for this menu item... */
+    dependency:
+      lesson: tbq_canteen
+      task: part_b
+      file: src/menu/chicken_rice/EconomicRice.java
+      placeholder: 2
+      is_visible: true
+- name: src/simulator/EventBus.java
+  visible: true
+  placeholders:
+  - offset: 97
+    length: 56
+    placeholder_text: '/* TODO: Singleton pattern */'
+  - offset: 197
+    length: 55
+    placeholder_text: '/* TODO: Singleton pattern */'
+  - offset: 72
+    length: 18
+    placeholder_text: '/* TODO: Obserable */'
+- name: src/events/IngredientUsedEvent.java
+  visible: true
+- name: src/events/ItemSaleEvent.java
+  visible: true
+- name: src/observers/Cashier.java
+  visible: true
+  placeholders:
+  - offset: 369
+    length: 153
+    placeholder_text: /* TODO */
+- name: src/observers/NEAWatchdog.java
+  visible: true
+  placeholders:
+  - offset: 380
+    length: 246
+    placeholder_text: /* TODO */
+- name: src/observers/MostUsedIngredientTracker.java
+  visible: true
+  placeholders:
+  - offset: 673
+    length: 308
+    placeholder_text: /* TODO */
+  - offset: 1224
+    length: 381
+    placeholder_text: /* TODO */
+- name: test/MostUsedIngredientTrackerTest.java
+  visible: true
+- name: test/NEAWatchdogTest.java
+  visible: true
+- name: test/CashierTest.java
+  visible: true
+- name: test/CombinedTest.java
+  visible: true

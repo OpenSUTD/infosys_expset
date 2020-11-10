@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Nobody can directly create instances of this class using the <code>new</code>
+    keyword because there is no constructor defined.
+  is_correct: false
+- text: Because there is a public getter and setter, I can do <code>s.name = "Norman";</code>
+    outside this class if <code>s</code> is an instance of <code>Student</code>
+  is_correct: false
+- text: If I call <code>getName()</code> on a freshly created student without first
+    setting a name, I get <code>null</code>.
+  is_correct: true
+- text: If I call <code>getName()</code> on a freshly created student without first
+    setting a name, I get <code>""</code> (a zero-length string).
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/readme.txt
+  visible: true

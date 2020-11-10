@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>Hello World!</code>
+  is_correct: true
+- text: <code>I'm from ISTD</code>
+  is_correct: false
+- text: Will not compile – you cannot call a static method from an instance of that
+    class
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Read up on static vs dynamic binding.
+files:
+- name: src/readme.txt
+  visible: true

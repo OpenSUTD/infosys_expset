@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: test/InventoryTest.java
+  visible: true
+- name: src/simulator/Ingredient.java
+  visible: true
+- name: src/simulator/Inventory.java
+  visible: true
+  placeholders:
+  - offset: 785
+    length: 61
+    placeholder_text: |-
+      // your code here
+              return 0;
+  - offset: 1151
+    length: 244
+    placeholder_text: '        // your answer here'
+  - offset: 1852
+    length: 347
+    placeholder_text: '        // your answer here'

@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Instead of <code>new ArrayList()</code>, I can also write <code>new LinkedList()</code>
+  is_correct: true
+- text: I can write <code>myList.add(420);</code> in a later line
+  is_correct: false
+- text: After I initialised <code>myList</code> and assigned an <code>ArrayList</code>,
+    I cannot reassign <code>LinkedList</code> to <code>myList</code> using <code>myList
+    = new LinkedList();</code> because it is already an <code>ArrayList</code>
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/readme.txt
+  visible: true
