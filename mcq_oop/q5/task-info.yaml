@@ -1,13 +1,13 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: <pre>I'm from ISTD<br>I am a prof at SUTD<br>Hello World!</pre>
+- text: Option A
   is_correct: false
-- text: <pre>I'm from ISTD<br>Hello World!<br>I am a prof at SUTD</pre>
+- text: Option B
   is_correct: false
-- text: <pre>I'm from ISTD</pre>
+- text: Option C
   is_correct: true
-- text: <pre>Hello World!<br>I am a prof at SUTD<br>I'm from ISTD</pre>
+- text: Option D
   is_correct: false
 message_correct: Congratulations!
 message_incorrect: <code>ISTDProf.greet()</code> is missing a call to <code>super</code>, hence neither <code>SUTDProf.greet()</code> or <code>Human.greet()</code> will run.

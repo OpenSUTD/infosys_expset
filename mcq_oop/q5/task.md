@@ -39,3 +39,5 @@ public class MyProgram {
     }
 }
 ```
+
+Check `readme.txt` for the options.
