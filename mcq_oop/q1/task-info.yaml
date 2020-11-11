@@ -14,3 +14,5 @@ message_incorrect: Incorrect solution
 files:
 - name: src/readme.txt
   visible: true
+- name: src/solution.md
+  visible: true

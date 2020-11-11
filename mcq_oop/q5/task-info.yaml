@@ -10,7 +10,10 @@ options:
 - text: Option D
   is_correct: false
 message_correct: Congratulations!
-message_incorrect: <code>ISTDProf.greet()</code> is missing a call to <code>super</code>, hence neither <code>SUTDProf.greet()</code> or <code>Human.greet()</code> will run.
+message_incorrect: <code>ISTDProf.greet()</code> is missing a call to <code>super</code>,
+  hence neither <code>SUTDProf.greet()</code> or <code>Human.greet()</code> will run.
 files:
 - name: src/readme.txt
+  visible: true
+- name: src/solution.md
   visible: true

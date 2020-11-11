@@ -87,3 +87,11 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 .coursecreator
+
+**/*.zip
+Infosys_ExPSet.zip
+
+# change this later
+.idea/modules/tbq_tts
+
+**/.DS_Store

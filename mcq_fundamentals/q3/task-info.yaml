@@ -1,19 +1,21 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: "<code>Good morning!</code>"
+- text: <code>Good morning!</code>
   is_correct: false
-- text: "<code>Good afternoon!</code>"
+- text: <code>Good afternoon!</code>
   is_correct: false
-- text: "<code>Unrecognised time</code>"
+- text: <code>Unrecognised time</code>
   is_correct: false
 - text: This program will not successfully compile
   is_correct: true
 message_correct: Congratulations!
-message_incorrect: "In Java, a new variable scope is created whenever a set of curly
+message_incorrect: In Java, a new variable scope is created whenever a set of curly
   braces are opened, and variables will exist within the same scope or nested scopes.
-  Since <code>message</code> is only created in the <code>if</code> scope, it will be destroyed upon leaving
-  the <code>if</code> block."
+  Since <code>message</code> is only created in the <code>if</code> scope, it will
+  be destroyed upon leaving the <code>if</code> block.
 files:
 - name: src/readme.txt
+  visible: true
+- name: src/solution.md
   visible: true
